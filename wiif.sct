@@ -1105,6 +1105,35 @@ Z     N003 38 16 000 E098 53 03 000
 24    N003.38.09.670 E098.53.01.626 ;- 
 25    N003.38.08.776 E098.53.00.674 ;- 
 
+;WICA Procedure Fixes
+      S006.38.25.620 E108.09.35.070 ;RWY14
+      S006.39.27.910 E108.10.27.450 ;RWY32
+AMPEL S006.30.44.000 E108.27.20.000
+TAMPO S006.41.46.000 E107.55.12.000
+DAGOH S006.52.52.000 E107.30.44.000
+GAPIT S006.41.53.000 E108.33.35.000
+LACAP S006.53.59.000 E108.39.39.000
+PALIM S006.43.37.000 E108.23.43.000
+PAREV S006.34.34.000 E108.06.21.000
+POMAS S006.37.08.000 E107.59.09.000
+SEBLA S006.50.20.000 E107.45.24.000
+SIKON S006.50.56.000 E108.02.12.000
+SIRAW S006.28.11.000 E108.19.44.000
+TAMPO S006.41.46.000 E107.55.12.000
+DAGOH S006.52.52.000 E107.30.44.000
+GAPIT S006.41.53.000 E108.33.35.000
+MAHAR S006.29.58.000 E108.02.28.000
+MURAN S006.34.29.000 E107.57.06.000
+ORIZA S006.25.29.000 E108.07.49.000
+SUMED S006.49.23.000 E107.50.48.000
+WINAN S006.38.42.000 E108.28.30.000
+BAGUS S006.43.17.300 E108.13.40.400
+GALOP S006.49.16.300 E108.12.10.000
+MAHAR S006.29.58.120 E108.02.28.200
+PAREV S006.34.34.300 E108.06.20.500
+PODAB S006.46.03.400 E108.16.00.140
+SEDAN S006.45.24.800 E108.08.55.600
+
 ;[HOLDING]
 
 [SID]
@@ -1123,8 +1152,7 @@ UPPER BANDA ACEH(128.300) N004.40.02.000 E095.29.44.000 N004.40.02.000 E095.29.4
 UPPER INDIAN OCEAN        S003.44.29.000 E096.14.56.000 S003.44.29.000 E096.14.56.000  
 CTA LOWER EAST(130.100)   S007.31.58.000 E106.13.13.000 S007.31.58.000 E106.13.13.000
 CTA LOWER CENTER(127.950) S004.24.45.000 E107.53.33.000 S004.24.45.000 E107.53.33.000
-CTA LOWER NORTH(124.350)  S004.53.17.000 E105.24.34.000 S004.53.17.000 E105.24.34.000         
-
+CTA LOWER NORTH(124.350)  S004.53.17.000 E105.24.34.000 S004.53.17.000 E105.24.34.000
 
 ; SID's for WIII (Soekarno hata)
 
@@ -1939,6 +1967,30 @@ WIBB18_JATAM1A            N000.25.01.335 E101.26.36.293 N000.23.55.594 E101.26.3
 
 ; SID's for WIBD (Pinang Kampai)
 ; SID's for WICA (Kertajati)
+WICA 14 GAPIT1A           S006.38.25.620 E108.09.35.070 S006.42.16.526 E108.12.48.877   
+                          S006.42.16.526 E108.12.48.877 PALIM
+                          PALIM                         GAPIT
+
+WICA 14 LACAP1A           S006.38.25.620 E108.09.35.070 S006.42.16.526 E108.12.48.877   
+                          S006.42.16.526 E108.12.48.877 PALIM
+                          PALIM                         LACAP
+                          
+WICA 14 DAGOH1A           S006.38.25.620 E108.09.35.070 S006.42.16.526 E108.12.48.877   
+                          S006.42.16.526 E108.12.48.877 SIKON
+                          SIKON                         SEBLA
+                          SEBLA                         DAGOH
+
+WICA 32 GAPIT1B           S006.39.27.910 E108.10.27.450 S006.35.36.983 E108.07.13.686
+                          S006.35.36.983 E108.07.13.686 SIRAW
+                          SIRAW                         AMPEL
+                          AMPEL                         GAPIT
+
+WICA 32 DAGOH1B           S006.39.27.910 E108.10.27.450 PAREV
+                          PAREV                         POMAS
+                          POMAS                         TAMPO
+                          TAMPO                         SEBLA
+                          SEBLA                         DAGOH
+
 ; SID's for WICB (Budiarto)
 ; SID's for WICC (Husein Sastranegara)
 WICC 29 CIREBON1          S006.53.40.000 E107.33.31.000 S006.53.40.000 E107.33.31.000   
@@ -6684,6 +6736,38 @@ WIBB RW36 MEDIA 1D        MEDIA          MEDIA          PKU            PKU
                           PKU            PKU            KAMPA          KAMPA    
             
 ; STAR's for WIBD (Pinang Kampai)
+; STAR's for WICA (Kertajati)
+WICA 14 GAPIT1C           GAPIT                         WINAN               
+                          WINAN                         ORIZA               
+                          ORIZA                         MAHAR
+                          MAHAR                         PAREV
+
+WICA 14 DAGOH1C           DAGOH                         SUMED               
+                          SUMED                         TAMPO               
+                          TAMPO                         MURAN
+                          MURAN                         MAHAR             
+                          MAHAR                         PAREV
+
+WICA 32 GAPIT1D           GAPIT                         WINAN               
+                          WINAN                         ORIZA               
+                          ORIZA                         MAHAR
+                          MAHAR                         PAREV
+                          PAREV                         SEDAN
+                          SEDAN                         GALOP
+                          GALOP                         PODAB
+                          PODAB                         BAGUS
+
+
+WICA 32 DAGOH1D           DAGOH                         SUMED               
+                          SUMED                         TAMPO               
+                          TAMPO                         MURAN
+                          MURAN                         MAHAR            
+                          MAHAR                         PAREV
+                          PAREV                         SEDAN
+                          SEDAN                         GALOP
+                          GALOP                         PODAB
+                          PODAB                         BAGUS
+
 ; STAR's for WICB (Budiarto)
 ; STAR's for WICC (Husein Sastranegara)
 ;
