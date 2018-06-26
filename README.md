@@ -5,4 +5,4 @@ To use it, click the green Download button, and load it to IVAC1.
 
 Update Log :
 
-26 June 2018 : Implementation of WICA
+- 26 June 2018 : Implementation of WICA
