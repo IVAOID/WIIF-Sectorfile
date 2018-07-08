@@ -7,8 +7,8 @@ Update Log :
 
 #08 July 2018 :
 
-WIPP RNAV Procedure Update (effective 19 July 2018)
-WIMM RNAV Procedure Update (effective 19 July 2018)
-WIOO Procedure Update
-WAHH IAF Update (Point Nasta)
-ICAO Update
+- WIPP RNAV Procedure Update (effective 19 July 2018)
+- WIMM RNAV Procedure Update (effective 19 July 2018)
+- WIOO Procedure Update
+- WAHH IAF Update (Point Nasta)
+- ICAO Update
