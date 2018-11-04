@@ -30,7 +30,11 @@
 #define coast 11645585
 
 [INFO]
+<<<<<<< HEAD
 WIIF-FIR INDONESIA vers 1.2.1 date 08 Juli 2018, updated by Yusuf Budi (ID-DIR)
+=======
+WIIF-FIR INDONESIA vers 1.2.1 date 29 Juni 2018, updated by Yusuf Budi (ID-DIR)
+>>>>>>> WIPP-&-WIMM-New-Procedure
 WIIF_CTR
 WIII
 S006.07.32.040
@@ -2677,8 +2681,9 @@ WAHS13_PURWO2C            S006.58.36.202 E110.22.43.257 S006.58.36.202 E110.22.4
 ; SID's for WIMB (Binaka)
 ; SID's for WIME (Aek Godang)
 ; SID's for WIMG (Tabing)
-;------------------------------------------------------------------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------
 ; SID's for WIMM (kualanamu)
+<<<<<<< HEAD
 ;------------------------valid until 18 July 1700z------------------------------------
 ;- WIMM_GOTLA1A
 WIMM05_GOTLA1A            N003.38.58.498 E098.52.57.433 N003.40.43.262 E098.54.41.054
@@ -3070,6 +3075,8 @@ WIMM23_JAMIS1B            N003.36.16.998 E098.50.16.413 N003.35.47.477 E098.49.4
                           N002.16.47.828 E099.03.47.262 jamis          jamis
 
 ;------------------------valid from 19 July 1700z------------------------------------
+=======
+>>>>>>> WIPP-&-WIMM-New-Procedure
 ; WIMM05_GOTLA2A
 WIMM05_GOTLA2A            N003.38.59.400 E098.52.56.860 NOKAR
                           NOKAR                         ROHAM
@@ -4111,6 +4118,7 @@ WIGG_31_TOLIT1B           S003.51.24.008 E102.19.22.866 S003.50.41.978 E102.18.3
 
 
 ; SID's for WIPO (Gatot Subrato)
+<<<<<<< HEAD
 ; SID's for WIPP (Sultan Mahmud Badaruddin Ii)
 ; SID's for WIPP (Sultan Mahmud Badaruddin Ii)
 ;-------------------------VALID UNTIL 18 JULY 2018 1700Z------------------------------
@@ -4683,6 +4691,9 @@ WIPP29 PLB7 TIAMA         S002.53.07.992 E104.40.10.937 S002.52.42.929 E104.39.1
 
 ;-----------------------------VALID FROM 18 JULY 2018 1700z -------------------------
 
+=======
+; SID's for WIPP (Sultan Mahmud Badaruddin II)
+>>>>>>> WIPP-&-WIMM-New-Procedure
 ;WIPP11_TODAK1A
 WIPP11_TODAK1A            S002.54.09.530 E104.42.36.920 TIDUK
                           TIDUK                         GUYUR
@@ -7098,6 +7109,7 @@ WAHS_PURWO2A              S007.11.47.547 E110.45.07.610 ANY            ANY
 ; STAR's for WIMG (Tabing)
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; STAR's for WIMM (kualanamu)
+<<<<<<< HEAD
 WIMM05_puger1a            puger          puger          N003.35.58.378 E099.05.57.638
                           N003.35.58.378 E099.05.57.638 N003.35.28.725 E099.05.55.078
                           N003.35.28.725 E099.05.55.078 N003.34.59.173 E099.05.51.548
@@ -7982,6 +7994,8 @@ WIMM23_GOTLA1D            gotla          gotla          N004.09.51.000 E099.13.4
 
 
 ; ---------------------------------- VALID FROM 18 jULY 2018 1700Z ------------------
+=======
+>>>>>>> WIPP-&-WIMM-New-Procedure
 WIMM05_GOTLA2C            GOTLA                         BADRI
                           BADRI                         KANCA
                           KANCA                         AKING
@@ -8254,43 +8268,120 @@ WIGG31 TOLIT_1D           TOLIT          TOLIT          S004.02.38.000 E102.42.2
                       
 
 ; STAR's for WIPO (Gatot Subrato)
-; STAR's for WIPP (Sultan Mahmud Badaruddin Ii)
-WIPP11-29 PAPA1_DOMIL     S003.55.06.851 E105.14.09.934 S003.49.04.042 E105.06.32.055
-                          S003.49.04.042 E105.06.32.055 PLB            PLB
-;
-WIPP11-29 PAPA3_KALAM     S002.18.59.219 E102.13.17.102 S002.33.05.849 E103.14.37.353
-                          S002.33.05.849 E103.14.37.353 S002.17.15.550 E103.50.37.133
-                          S002.17.15.550 E103.50.37.133 PLB            PLB
+; STAR's for WIPP (Sultan Mahmud Badaruddin II)
+WIPP11_TODAK1C            TODAK                         ZANIA
+                          ZANIA                         NAURA
+                          NAURA                         TASYA
 
-;
-WIPP11-29 PAPA3_KUALA     S001.08.53.068 E103.08.36.670 S001.38.15.408 E103.38.33.589
-                          S001.38.15.408 E103.38.33.589 S002.17.20.917 E103.50.39.277
-                          S002.17.20.917 E103.50.39.277 PLB            PLB
-;
-WIPP11-29 PAPA3_PASOL     pasol          pasol          S002.18.02.000 E103.24.08.000
-                          S002.18.02.000 E103.24.08.000 S002.17.20.917 E103.50.39.277
-                          S002.17.20.917 E103.50.39.277 PLB            PLB
-;
-WIPP11-29 PAPA5_LEPAR     S002.48.24.292 E106.15.01.046 S002.38.19.556 E105.37.00.324
-                          S002.38.19.556 E105.37.00.324 PLB            PLB
-;
-WIPP11-29 PAPA4_PARDI     S000.33.47.833 E104.12.48.612 S001.16.42.246 E104.20.52.415
-                          S001.16.42.246 E104.20.52.415 S001.53.59.768 E104.52.15.713
-                          S001.53.59.768 E104.52.15.713 PLB            PLB
-        
-WIPP11-29 PAPA2_BKL       S003.52.17.580 E102.19.38.857 PLB            PLB
+WIPP11_FERET1C            FERET                         TODAK
+                          TODAK                         ZANIA
+                          ZANIA                         NAURA
+                          NAURA                         TASYA
 
-;
-WIPP11-29 PAPA5_PKP       S002.09.24.851 E106.08.24.894 S002.38.10.050 E105.37.23.045
-                          S002.38.10.050 E105.37.23.045 PLB            PLB
+WIPP11_DOMIL1A            DOMIL                         BURGO
+                          BURGO                         KAFAD
+                          KAFAD                         BESAK
+                          BESAK                         FUADA
+                          FUADA                         POLDI
+                          POLDI                         TASYA
 
-;
-WIPP11-29 PAPA4_TIAMA     S001.02.22.156 E104.35.30.477 S001.25.19.740 E104.36.04.907
-                          S001.25.19.740 E104.36.04.907 S001.54.36.085 E104.52.26.396
-                          S001.54.36.085 E104.52.26.396 PLB            PLB
-;
-WIPP11-29 PAPA1_TKG       S005.15.36.146 E105.11.39.037 S003.49.06.620 E105.06.12.936
-                          S003.49.06.620 E105.06.12.936 PLB            PLB
+WIPP11_TERKA1E            TERKA                         BURGO
+                          BURGO                         KAFAD
+                          KAFAD                         BESAK
+                          BESAK                         FUADA
+                          FUADA                         POLDI
+                          POLDI                         TASYA
+
+WIPP11_RAWAS1C            RAWAS                         HITAM
+                          HITAM                         LEMPO
+                          LEMPO                         TASYA
+
+WIPP11_PABIO1A            PABIO                         YANIX
+                          YANIX                         RUKMA
+                          RUKMA                         LEMPO
+                          LEMPO                         TASYA
+
+WIPP11_KALAM1C            KALAM                         AVARO
+                          AVARO                         RUKMA
+                          RUKMA                         LEMPO
+                          LEMPO                         TASYA
+
+WIPP11_PASOL1C            PASOL                         RIRIN
+                          RIRIN                         RUKMA
+                          RUKMA                         LEMPO
+                          LEMPO                         TASYA
+
+WIPP11_KUALA1C            KUALA                         JAMBI
+                          JAMBI                         FEBIS
+                          FEBIS                         LEMPO
+                          LEMPO                         TASYA
+
+WIPP11_TIAMA1A            TIAMA                         ZANIA
+                          ZANIA                         NAURA
+                          NAURA                         TASYA
+
+
+WIPP29_TODAK1D            TODAK                         HANDA
+                          HANDA                         RETNO
+                          RETNO                         TEWAN
+                          TEWAN                         EPBIN
+
+WIPP29_FERET1D            FERET                         TODAK
+                          TODAK                         HANDA
+                          HANDA                         RETNO
+                          RETNO                         TEWAN
+                          TEWAN                         EPBIN
+
+WIPP29_DOMIL1B            DOMIL                         BURGO
+                          BURGO                         MODEL
+                          MODEL                         EPBIN
+
+WIPP29_TERKA1F            TERKA                         ANAMI
+                          ANAMI                         BURGO
+                          BURGO                         MODEL
+                          MODEL                         EPBIN
+
+WIPP29_RAWAS1D            RAWAS                         NIGUS
+                          NIGUS                         LAXAN
+                          LAXAN                         BESAK
+                          BESAK                         MODEL
+                          MODEL                         EPBIN
+
+WIPP29_PABIO1B            PABIO                         TEGUH
+                          TEGUH                         SOBAT
+                          SOBAT                         LEMAK
+                          LEMAK                         LAXAN
+                          LAXAN                         BESAK
+                          BESAK                         MODEL
+                          MODEL                         EPBIN
+
+WIPP29_KALAM1D            KALAM                         TEGUH
+                          TEGUH                         SOBAT
+                          SOBAT                         LEMAK
+                          LEMAK                         LAXAN
+                          LAXAN                         BESAK
+                          BESAK                         MODEL
+                          MODEL                         EPBIN
+
+WIPP29_PASOL1D            PASOL                         TEGUH
+                          TEGUH                         SOBAT
+                          SOBAT                         LEMAK
+                          LEMAK                         LAXAN
+                          LAXAN                         BESAK
+                          BESAK                         MODEL
+                          MODEL                         EPBIN
+
+WIPP29_KUALA1D            KUALA                         LOKAK
+                          LOKAK                         KAGEK
+                          KAGEK                         PILIH
+                          PILIH                         TEWAN
+                          TEWAN                         EPBIN
+
+WIPP29_TIAMA1B            TIAMA                         POCOK
+                          POCOK                         KAGEK
+                          KAGEK                         PILIH
+                          PILIH                         TEWAN
+                          TEWAN                         EPBIN
 
 
 ;----------------------------VALID FROM 18 JULY 2018 1700Z---------------------------

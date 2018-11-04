@@ -6,9 +6,17 @@ Update Log :
 #26 June 2018 : Implementation of WICA
 
 #08 July 2018 :
+<<<<<<< HEAD
 
+=======
+>>>>>>> WIPP-&-WIMM-New-Procedure
 - WIPP RNAV Procedure Update (effective 19 July 2018)
 - WIMM RNAV Procedure Update (effective 19 July 2018)
 - WIOO Procedure Update
 - WAHH IAF Update (Point Nasta)
 - ICAO Update
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> WIPP-&-WIMM-New-Procedure
