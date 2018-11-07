@@ -18,3 +18,6 @@ Update Log :
 - WIII Area VFR Route Restructurization
 - Airways Realignment
 
+#7 November 2018 :
+- WIII Layout Updated & Reworked
+
