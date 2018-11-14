@@ -64,6 +64,7 @@ WIME 122.800 N001.24.00.370 E099.25.49.600 D ; Aek Godang (elev: 935)
 WIMG 122.200 S000.52.29.960 E100.21.06.700 D ; Tabing (elev: 9)
 WIDN 118.400 N000.55.21.660 E104.31.56.300 D ; Kijang (elev: 56)
 WIMM         N003.38.30.000 E098.53.06.000 B ; kualanamu
+WIMN 123.150 N002.15.43.800 E098.59.16.000 B ; Silangit (elev: 4707)
 WIMS 122.300 N001.33.21.430 E098.53.18.200 D ; Pinang Sore (elev: 147)
 WIKT 122.200 S002.44.44.600 E107.45.17.700 D ; H As Hanandjoeddin (elev: 164)
 WIOG 124.300 S000.20.55.930 E111.44.51.300 D ; Nanga Pinoh I (elev: 121)
@@ -244,6 +245,8 @@ WAHU         S005.48.08.770 E110.28.42.160 D ; Dewadaru
 16  34          S000.51.57.050 E100.20.54.930 S000.53.02.870 E100.21.18.620
 ; WIMM - kUALANAMU 
 05  23  046 226 N003.37.33.240 E098.51.30.960 N003.38.59.440 E098.52.56.860
+; WIMN - Silangit
+09  27  093 273 N002.15.36.500 E098.58.40.300 N002.15.33.000 E098.59.53.200
 ; WIMS - Pinang Sore 
 12  30  125 305 N001.33.37.120 E098.52.55.100 N001.33.05.740 E098.53.41.330
 ; WIKT - H As Hanandjoeddin 
@@ -552,6 +555,7 @@ BUNGA S006.07.05.480 E106.49.07.890
 BUNIK S004.51.42.000 E106.37.24.000
 CARLI S005.15.36.610 E106.12.47.630
 CARTA S005.22.28.600 E106.34.58.680
+CBDRY S003.10.04.000 E101.26.29.400
 CIELA S005.52.27.740 E107.23.03.680
 CILOK S007 02 08.770 E107 58 19.380
 CORIL S006.37.26.550 E107.55.55.500
@@ -656,6 +660,7 @@ MEDIA N001.56.41.770 E100.02.44.400
 MEDOM N005.04.31.550 E096.07.49.520
 MEMAK N006.00.00.000 E093.05.00.000
 MERIM N002.30.07.010 E097.01.51.140
+MIBEL N001.23.51.000 E102.08.16.000
 MIMIX S003.19.19.920 E107.37.17.310
 MOSOL N001.52.20.240 E098.14.42.390
 MULAN S005.14018.960 E107.11.46.560
@@ -695,6 +700,7 @@ PILEK S002.58.24.000 E095.07.48.000
 POSOD S003.29.30.000 E094.09.54.000
 POVUS N006.00.00.000 E094.39.58.000
 PRIOK S005.57.39.240 E106.53.34.550
+PROGO S009.01.38.000 E110.46.00.000
 PUGER N003.24.06.000 E100.17.36.000
 PURWO S007.11.48.430 E110.45.07.630
 PUSPA S005.58.26.240 E106.49.00.430
@@ -716,6 +722,7 @@ SAMBA S006.02.36.000 E106.35.02.330
 SAMSU S002.03.13.120 E108.09.53.450
 SAPDA S012.00.00.000 E111.25.36.000
 SELSU N001.11.00.000 E092.00.00.000
+SEMPU S009.01.51.000 E112.41.26.000
 SEPAT S006.12.18.360 E106.20.30.770
 SIDKI S006 59 58.070 E107 40 14.600
 SIGAS S006.14.21.040 E106.23.55.390
@@ -1213,6 +1220,11 @@ E     S007 47 15 000 E110 26 29 000
 ABDRY S000.36.10.600 E100.40.12.980 ;- minangkabau area
 PKU30 S000.03.08.574 E101.26.23.340 ;- minangkabau area
 PDG30 S000.24.24.966 E100.09.56.004 ;- minangkabau area
+
+;---------------WIJJ------------------
+
+FAIRA S001.29.47.000 E103.26.41.300
+MUARO S001.48.26.800 E103.49.40.600
 
 ;---------------WAHQ------------------
 A     S007.30.58.000 E110.45.00.000 ;WAHQ
@@ -6899,6 +6911,9 @@ A585                      SAPDA                         IPKON
                           JATAM                         PKU
                           PKU                           MDN
 
+; A576S
+A576S                     ANY                           RAFIS
+
 ; B325
 B325                      HLM                           ENSIB
                           ENSIB                         MUPAP
@@ -6909,7 +6924,7 @@ B325                      TOSOK                         BOSTI
                           BOSTI                         TASEK
 
 ; B469
-B469                      NE                            NE
+B469                      NE                            TODAK
                           TODAK                         BIDAK
                           BIDAK                         BIKAL
                           BIKAL                         HLM
@@ -6928,7 +6943,6 @@ B470                      ANITO                         PKP
 G209                      PLB                           TKG
                           TKG                           XMX
                           XMX                           ISRAN
-                          ISRAN                         DKI
 
 ; G337
 G337                      PKU                           BIBUL
@@ -6975,8 +6989,10 @@ L644                      KIKOR                         TPN
                           ABASA                         DKI
 
 ; L762
-L762                      MDN                           ANSAX
-
+L762                      ANSAX                         MDN
+                          MDN                           MOZES
+                          MOZES                         MIBEL
+                          MIBEL                         ASUNA
 ; L764
 L764                      PKP                           IKIBU
                           IKIBU                         LEMUS
@@ -7006,6 +7022,13 @@ L895                      KETIV                         PILEK
                           PILEK                         NIRIS
                           NIRIS                         XMX
 
+; M300
+M300                      TOPIN                         BULVA
+                          BULVA                         OKABU
+                          OKABU                         PEKDO
+                          PEKDO                         MOZES
+                          MOZES                         SALAX
+
 ; M635
 M635                      SURGA                         RUSMA
                           RUSMA                         SAMSU
@@ -7013,14 +7036,19 @@ M635                      SURGA                         RUSMA
                           MASRI                         RAFIS
                           RAFIS                         TAVIP
 
-; M635
-M635                      MADIN                         KIDET
+; M766
+M766                      MADIN                         KIDET
                           KIDET                         IMU
                           IMU                           DKI
                           DKI                           TULIP
                           TULIP                         TKG
                           TKG                           TOLIT
                           TOLIT                         BKL
+                          BKL                           PAGAI
+                          PAGAI                         OBMAT
+                          OBMAT                         ODIRU
+                          ODIRU                         ISBIX
+                          ISBIX                         SELSU
 
 ; M772
 M772                      OSUKA                         ANIPU
@@ -7103,8 +7131,12 @@ R461                      MDN                           PUGER
 ; R469
 R469                      PKU                           TAROS
 
-; P648
-P648                      CKG                           TULIP
+; T1
+T1                        CLP                           PROGO
+                          PROGO                         SEMPU
+
+; W11
+W11                       CKG                           TULIP
                           TULIP                         TKG
                           TKG                           TUNDA
                           TUNDA                         TALAM
@@ -7112,6 +7144,13 @@ P648                      CKG                           TULIP
                           MKB                           JAMIS
                           JAMIS                         DUAMO
                           DUAMO                         BAC
+
+; W11
+W11                       MDN                           JAMIS
+                          JAMIS                         MKB
+                          MKB                           TALAM
+                          TALAM                         TUNDA
+                          TUNDA                         TKG
 
 ; W12
 W12                       CKG                           DOLTA
@@ -7195,30 +7234,40 @@ W19                       BAC                           MOSOL
                           TKG                           CARLI
                           CARLI                         DKI
 
-; W19
-W19                       MKB                           KATAN
+; W21
+W21                       MKB                           KATAN
                           KATAN                         KALAM
                           KALAM                         PLB
                           PLB                           TERKA
                           TERKA                         TKG
 
 ; W22
-W22                       MKB                           PKU
+W22                       MKB                           ABDRY
+                          ABDRY                         PKU30
+                          PKU30                         PKU
                           PKU                           PIDON
-
-; W19
-W19                       BKL                           PLB
+; W23
+W23                       BKL                           PLB
                           PLB                           TODAK
                           TODAK                         PKP
                           PKP                           LIANA
                           LIANA                         PNK
 
 ; W24
-W24                       NE                            TIAMA
+W24                       TPG                           NE
+                          NE                            TIAMA
                           TIAMA                         PLB
 
+; W25
+W25                       MKB                           PASOL
+                          PASOL                         PLB
+                          PLB                           FERET
+                          FERET                         LEPAR
+                          LEPAR                         TPN
+
 ; W26
-W26                       KIRDA                         PKP
+W26                       TPG                           KIRDA
+                          KIRDA                         PKP
                           PKP                           BOSLO
                           BOSLO                         BUNIK
                           BUNIK                         DKI
