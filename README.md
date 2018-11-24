@@ -27,3 +27,7 @@ Update Log :
 - High Airways update
 - Implementation of WIMN
 - WIJJ IAF Update
+
+#24 November 2018 :
+- WIMM Holding Procedure Updates
+
