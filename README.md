@@ -31,3 +31,6 @@ Update Log :
 #24 November 2018 :
 - WIMM Holding Procedure Updates
 
+#14 December 2018 :
+- NOKTA Coordinate fixed
+
