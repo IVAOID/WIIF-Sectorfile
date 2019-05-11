@@ -34,3 +34,11 @@ Update Log :
 #14 December 2018 :
 - NOKTA Coordinate fixed
 
+#05 April 2019 :
+- add PALEM point
+- add FIRJ1 FIRJ2 FIRJ3 FIRJ4 point.
+- add P501 highairways
+
+#11 May 2019
+- add WAHI[Kulon Progo]
+- add waypoint PALEM
