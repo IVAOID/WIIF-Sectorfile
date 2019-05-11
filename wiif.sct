@@ -4414,9 +4414,22 @@ WAHI_CLP1F.rnw11          KESHA                         ROVIN
                           BRAMA                         CLP
 
 ;- CA1E
-WAHI_CA1E.rmw11           KESHA                         HERJE
+WAHI_CA1E.rnw11           KESHA                         HERJE
                           HERJE                         VEREL
                           VEREL                         NOPEM
+                          NOPEM                         CA
+;- SO1A
+WAHI_SO1A.rnw29           PAWON                         NOREH
+                          NOREH                         GETUK
+                          GETUK                         MERGO
+                          MERGO                         OF
+                          OF                            SO
+;- CLP1G
+WAHI_CLP1G.rnw29          PAWON                         SERMO
+                          SERMO                         BRAMA
+                          BRAMA                         CLP
+;- CA1F
+WAHI_CA1F.rnw29           VEREL                         NOPEM
                           NOPEM                         CA
 ;======================================================================================
 
