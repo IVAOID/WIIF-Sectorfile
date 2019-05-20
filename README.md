@@ -35,10 +35,15 @@ Update Log :
 - NOKTA Coordinate fixed
 
 #05 April 2019 :
-- add PALEM point
 - add FIRJ1 FIRJ2 FIRJ3 FIRJ4 point.
 - add P501 highairways
 
 #11 May 2019
 - add WAHI[Kulon Progo]
 - add waypoint PALEM
+
+#20 May 2019
+- Update WIBB SID & STAR
+- Add WIBB RNP IAF Runway 36
+- Add WIHH RNP IAF Runway 06
+- Add WIMN IAF Runway 09 & 27
