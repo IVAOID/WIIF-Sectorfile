@@ -47,3 +47,10 @@ Update Log :
 - Add WIBB RNP IAF Runway 36
 - Add WIHH RNP IAF Runway 06
 - Add WIMN IAF Runway 09 & 27
+
+#21 June 2019 [before use this new update sector file, pls refer to NOTAM ID114529/19]
+- Add New Taxiway & Runway WIII Ground Layout
+- Add New STAR & SID WIII Cycle 1907
+- Fix Taxiway name at WIII
+- Update WIBB Ground Layout
+- Add WIMN Ground Layout
