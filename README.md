@@ -54,3 +54,7 @@ Update Log :
 - Fix Taxiway name at WIII
 - Update WIBB Ground Layout
 - Add WIMN Ground Layout
+
+#22 August 2019
+- Add restricted area near WIBB for incoming SO Event
+- Update WAHH ground layout, stand, and taxiway
