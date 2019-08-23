@@ -58,3 +58,7 @@ Update Log :
 #22 August 2019
 - Add restricted area near WIBB for incoming SO Event
 - Update WAHH ground layout, stand, and taxiway
+
+#23 August 2019
+- Update WIEE ground layout, stand, and taxiway
+- Update WIGG ground layout, stand, and taxiway
