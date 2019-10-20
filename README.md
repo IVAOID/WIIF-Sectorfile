@@ -62,3 +62,7 @@ Update Log :
 #23 August 2019
 - Update WIEE ground layout, stand, and taxiway
 - Update WIGG ground layout, stand, and taxiway
+
+#21 October 2019
+- Update WIOO ground layout [WIP]
+- New WIEE ATC SMA
